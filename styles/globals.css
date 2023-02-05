@@ -453,6 +453,7 @@ span.text-red {
 
 .selected-image{
     background-color:#f02d34;
+    padding: 1px;
 }
 .reviews{
     color: #f02d34;
@@ -762,4 +763,9 @@ span.text-red {
         width: 300px;
         margin: auto;
     }
+}
+
+.custom-image-container img{
+    width: 400px;
+    height: 400px;
 }
