@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className={'navbar-container'}>
             <p className={'logo'}>
                 <Link href={'/'}>
-                    Headphones
+                    Next Apple Store
                 </Link>
             </p>
             <button type={'button'} className={'cart-icon'} onClick={() => setShowCart(true)}>
