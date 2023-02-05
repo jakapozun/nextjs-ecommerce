@@ -1,9 +1,21 @@
 import React from 'react';
-
-const Layout = () => {
+import Head from 'next/head';
+import {Footer, Navbar} from "./index";
+const Layout = ({children}) => {
     return (
-        <div>
-            
+        <div className={'layout'}>
+            <Head>
+                <title>Next Ecommerce</title>
+            </Head>
+            <header>
+                <Navbar />
+            </header>
+            <main className={'main-container'}>
+                {children}
+            </main>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     );
 };

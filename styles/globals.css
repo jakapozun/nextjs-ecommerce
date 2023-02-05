@@ -113,6 +113,7 @@ span.text-red {
     transform: scale(1.1,1.1)
 }
 .product-image{
+    padding: 1px;
     border-radius: 15px;
     background-color: #ebebeb;
     transform: scale(1, 1);
@@ -248,8 +249,9 @@ span.text-red {
     position: absolute;
     /* top: -35%;
     left: 8%; */
-    top: -25%;
+    top: 0;
     left: 25%;
+    width: 500px;
 }
 .banner-desc .right{
     line-height: 1.4;
